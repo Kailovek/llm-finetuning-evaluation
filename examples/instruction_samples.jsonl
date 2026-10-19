@@ -1,0 +1,4 @@
+{"instruction":"分析驱动器过流告警","input":"启动阶段出现过流，需检查哪些方面？","output":"{\"category\":\"overcurrent\",\"action\":\"check_load_and_wiring\",\"risk\":\"high\"}"}
+{"instruction":"分析驱动器过压告警","input":"减速阶段出现过压，给出检查方向。","output":"{\"category\":\"overvoltage\",\"action\":\"check_deceleration_and_braking\",\"risk\":\"high\"}"}
+{"instruction":"分析通信超时","input":"设备通信间歇丢失。","output":"{\"category\":\"communication\",\"action\":\"check_power_connection_and_timeout\",\"risk\":\"medium\"}"}
+{"instruction":"整理故障排查信息","input":"现象尚不明确，应补充哪些证据？","output":"{\"category\":\"unknown\",\"action\":\"collect_more_evidence\",\"risk\":\"unknown\"}"}
